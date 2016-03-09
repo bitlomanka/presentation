@@ -42,23 +42,24 @@ body{
     padding: 20px 0;
     text-align: center;
     font: 24px Tahoma;
-    color: #2f2c30;
+    color:#61656e;
 }
 
 .container__bg-head{
-    background: url(../images/head-bg.png) no-repeat center;
+    background: url(../images/head-bg3.png) no-repeat center;
     height: 520px;
     overflow: hidden;
     word-wrap: break-word;
 }
 
 .header__description{
-    color: #2f2c30;
+    color:#61656e;
     width: 55%;
-    padding: 10px 1%;
+    padding: 15px 1%;
     font: 18px Tahoma;
-    margin: 60px 0;
-    background: rgba(255, 255, 255, 0.7);
+    margin: 130px 0;
+    background: rgba(255, 255, 255, 0.4);
+    border: 3px solid #fff;
 }
 
 .header__description p:first-letter{
@@ -78,16 +79,15 @@ body{
     cursor: pointer;
     min-width: 220px;
     text-align: center;
+    display: block;
+    text-decoration: none;
 }
 
 .header__button:hover{
-    background: rgba(251, 251, 249, 0.3)
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .github_link{
-    display: block;
-    color: #fff;
-    text-decoration: none;
     float: left;
 }
 
@@ -96,7 +96,7 @@ body{
 }
 
 .content{
-    
+    margin-bottom: 100px;
 }
 
 .section{
@@ -109,7 +109,8 @@ body{
     text-align: center;
     font: 18px Tahoma;
     padding: 20px 0;
-    color: #2f2c30;
+/*    color: #2f2c30;*/
+    color:#61656e;
     margin: 0 0 30px 0;
 }
 
@@ -117,6 +118,8 @@ body{
     font: 16px Tahoma;
     margin: 0 0 50px 0;
     text-align: center;
+    color:#61656e;
+    color: #2f2c30;
 }
 
 .command__container{
@@ -142,7 +145,7 @@ body{
     overflow: hidden;
     margin: 0 0 15px;
     box-sizing: border-box;
-    border: 3px solid #61656e;
+    border: 3px solid #bac0ce;
 }
 
 .name{
@@ -154,6 +157,7 @@ body{
 .role{
     font: 16px Tahoma;
     text-align: center;
+    color: #FC9C4B;
 }
 
 .list__instructions{
@@ -162,7 +166,7 @@ body{
 
 .item__instructions{
     letter-spacing: -0.3em;
-    margin: 0 0 30px 0;
+    padding: 0 0 30px 0;
 }
 
 .instructions__text, .instructions__container-img{
@@ -180,6 +184,7 @@ body{
     font: bold 20px Tahoma;
     width: 18%;
     float: left;
+    color:#61656e;
 }
 
 .text{
@@ -199,6 +204,13 @@ body{
 
 .footer{
     height: 80px;
-    background: #bac0ce;
+    background: #fbfbf9;
     display: table-row;
+}
+
+.copy{
+    text-align: center;
+    padding: 30px;
+    font: 12px Tahoma;
+    color: #2f2c30;
 }
